@@ -65,11 +65,9 @@ function checkGuesses() {
             feedback.textContent = "Guess was low!";
         }
     }
-
     function gameOver() {
         attempts = 0;
         document.querySelector("#guessBtn").style.display = "none";
         document.querySelector("#resetBtn").style.display = "inline";
     }
-
 }
