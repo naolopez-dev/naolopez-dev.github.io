@@ -1,0 +1,90 @@
+body {
+    background-color: #f4efe6;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #5a7247;
+    margin-top: 30px;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid #a3b18a;
+    border-radius: 6px;
+    background-color: #fffaf3;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #a3b18a;
+    border:none;
+    color: white;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: #7f9c6b;
+}
+
+#resetBtn {
+    background-color: #cb997e;
+}
+
+#resetBtn:hover {
+    background-color: #b5836a;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#guesses {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: #e9edc9;
+    border: 1px solid #a3b18a;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#wins, #losses {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: #f0f0e8;
+    color: #5a7247;
+}
+
+div {
+    margin-top: 12px;
+}
+
+header {
+    background-color: #dde5b6;
+    padding: 15px;
+    border-bottom: 3px solid #a3b18a;
+}
+
+#gameImage {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid #a3b18a;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
