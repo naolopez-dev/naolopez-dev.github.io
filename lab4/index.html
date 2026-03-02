@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4: Sign up Form </title>
+</head>
+
+<body>
+
+    <h1> Sign Up Form </h1>
+
+    <form id="signupForm">
+
+        <label>First Name</label>
+        <input type="text"> <br>
+
+        <label>Last Name</label>
+        <input type="text"><br>
+
+        <label>Email</label>
+        <input type="text"><br>
+
+        <label>Phone Number</label>
+        <input type="text"><br>
+
+        <label>Zip Code</label>
+        <input id="zipCode" type="text">
+        <span id="zipMsg" class="text-wrong"></span>
+        <br>
+        <p class="info">City: <span id="city"></span></p>
+        <p class="info">Latitude: <span id="latitude"></span></p> 
+        <p class="info">Longitude: <span id="longitude"></span></p>
+        
+        <label>State</label>
+        <select id="state"></select>
+        <br>
+        <label>County</label>
+        <select id="county"></select>
+        <br>
+        <label>Desired Username</label>
+        <input id="username" type="text">
+        <span id="userMsg"></span>
+        <span id="userError" class="text-wrong"></span>
+        <br>
+        <label>Password</label>
+        <input id="password" type="password">
+        <span id="suggestedPassword" class="text-right"></span>
+        <span id="passError" class="text-wrong"></span>
+        <br>
+        <label>Type Password Again</label>
+        <input id="password2" type="password">
+        <span id="matchError" class="text-wrong"></span>
+        <br>
+        <button type="submit">Sign up!</button>
+
+    </form>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</body>
+
+</html>
