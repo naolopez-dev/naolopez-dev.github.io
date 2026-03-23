@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"></script>
+    <script src="js/script.js" defer></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Quiz</h1>
+    1. What is the CSS property to set font color?
+<div id="q1ChoicesDiv"></div>
+<div id="q1Feedback"></div>
+<br>
+
+2. Type property that makes text bold:
+<input type="text" id="q2">
+<div id="q2Feedback"></div>
+<br>
+
+3. Which unit is relative?
+<select id="q3">
+    <option value="">Select</option>
+    <option value="px">px</option>
+    <option value="em">em</option>
+    <option value="cm">cm</option>
+</select>
+<div id="q3Feedback"></div>
+<br>
+
+4. Select block elements:
+<br>
+<label><input type="checkbox" name="q4" value="div"> div</label>
+<label><input type="checkbox" name="q4" value="span"> span</label>
+<label><input type="checkbox" name="q4" value="p"> p</label>
+<div id="q4Feedback"></div>
+<br>
+
+5. How many points is each question worth?
+<input type="number" id="q5" min="0">
+<div id="q5Feedback"></div>
+<br><br>
+<button>Submit Quiz</button>
+<h2 id="totalScore"></h2>
+<p id="timesTaken"></p>
+<h3 id="msg"></h3>
+</body>
+</html>

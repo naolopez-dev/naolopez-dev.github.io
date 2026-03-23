@@ -1,0 +1,46 @@
+body{
+    font-family:Arial;
+    background:#eef;
+    margin:20px;
+}
+
+h1{
+    text-align:center;
+    color:#333;
+}
+
+label{
+    display:block;
+    margin:4px 0;
+}
+
+button{
+    padding:10px;
+    background:navy;
+    color:white;
+    border:none;
+    border-radius:6px;
+}
+
+button:hover{
+    background:darkblue;
+}
+
+div{
+    margin-bottom:10px;
+}
+
+img{
+    width: 70px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+#totalScore{
+    color:purple;
+}
+
+#msg{
+    color:green;
+    font-weight:bold;
+}
