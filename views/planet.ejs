@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("partials/head.ejs") %>
+</head>
+
+<body>
+    <h1 class="bg-info text-white p-3 m-0"> The Solar System </h1>
+
+    <%- include("partials/navbar.ejs") %>
+
+        <div class="container-fluid m-5 row">
+            <div class="card p-4 col">
+                <h2>
+                    <%= planet %>
+                </h2>
+                <div id="info">
+                <%= planetInfo.description %> <br><br></div>
+                    <p> One Earth Day: <%= planetInfo.oneEarthDay %>
+                    </p>
+
+                    <br>
+
+                    <p> Distance From Sun: <%= planetInfo.distanceFromSun %>
+                    </p>
+
+                    <br>
+
+                    <p> Year Length: <%= planetInfo.yearLength %>
+                    </p>
+
+                    <br>
+
+                    <p> Radius: <%= planetInfo.radius %>
+                    </p>
+
+                    <br>
+
+                    <p> Moons: <%= planetInfo.moons %>
+                    </p>
+
+            </div>
+            <div class="col card">
+                <img src="<%=planetInfo.image %>">
+            </div>
+        </div>
+
+</body>
+
+<footer>
+    <%- include("partials/footer.ejs") %>
+</footer>
+
+</html>

@@ -1,0 +1,58 @@
+
+body {
+    background-color: #0b0c1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+} 
+#nasaImg{
+    max-width: 50%; height: auto;
+}
+
+
+h1 {
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #1a1c3a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+h2 {
+    color:white;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#info{
+    color:white;
+}
+
+#randImg{
+    width: 50%;
+    height: auto;
+}
