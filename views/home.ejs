@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Book Search</h1>
+    <form action="/search" method="GET">
+        <input type="text" name="keyword" placeholder="Search for a book">
+        <button type="submit">Search</button>
+    </form>
+    <br>
+    <form action="/random" method="GET">
+        <button type="submit">Random Book</button>
+    </form>
+</body>
+<footer>
+    <%- include("partials/footer.ejs") %>
+</footer>
+</html>
